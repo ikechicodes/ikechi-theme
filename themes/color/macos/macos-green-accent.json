@@ -223,8 +223,7 @@
 				"variable.language.super",
 				"keyword.other.typedef",
 				"constant.language",
-				"storage.modifer.java",
-				"meta.class.java"
+				"storage.modifier.java"
 			],
 			"settings": {
 				"foreground": "#fe7ab2"
