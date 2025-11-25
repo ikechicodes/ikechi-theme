@@ -497,12 +497,7 @@
 		{
 			"name": "Import Module Strings",
 			"scope": [
-				"string.quoted",
-				"string.quoted.single",
-				"string.quoted.double",
-				"string.quoted.other",
-				"string.quoted.module",
-				"support.module"
+				"meta.import.js"
 			],
 			"settings": {
 				"foreground": "#ffffff"	
