@@ -1,14 +1,14 @@
 {
-    "name": "chiper",
-    "displayName": "Chiper",
+    "name": "ikechi-theme",
+    "displayName": "Ikechi-Theme",
     "description": "Flat and minimal themes!",
     "icon": "assets/icon/icon.png",
     "version": "1.0.1",
     "preview": true,
-    "publisher": "Hebrasco",
+    "publisher": "ikechicodes",
     "repository": {
         "type": "git",
-        "url": "https://github.com/Hebrasco/chiper"
+        "url": "https://github.com/ikechicodes/ikechi-theme"
     },
     "homepage": "https://daniel-bedrich.dev",
     "engines": {
@@ -43,7 +43,7 @@
                 "path": "./themes/color/macos/macos-red-accent.json"
             },
             {
-                "label": "Chiper - MacOS Green Accent",
+                "label": "Ikechi - MacOS Green Accent",
                 "uiTheme": "vs-dark",
                 "path": "./themes/color/macos/macos-green-accent.json"
             },
