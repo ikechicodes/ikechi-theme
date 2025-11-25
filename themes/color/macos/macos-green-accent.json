@@ -222,7 +222,8 @@
 				"variable.language.this",
 				"variable.language.super",
 				"keyword.other.typedef",
-				"constant.language"
+				"constant.language",
+				"storage.modifer.java"
 			],
 			"settings": {
 				"foreground": "#fe7ab2"
