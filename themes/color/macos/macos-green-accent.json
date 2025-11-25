@@ -400,15 +400,6 @@
 			}
 		},
 		{
-			"name": "Assignment",
-			"scope": [
-				"keyword.operator.assignment"
-			],
-			"settings": {
-				"foreground": "#ffffffd9"
-			}
-		},
-		{
 			"name": "GQLFragmentName",
 			"scope": [
 				"entity.name.fragment.graphql",
@@ -521,7 +512,6 @@
 			"scope": [
 				"constant.other.package.java",
 				"meta.package.identifier.java",
-				"storage.modifier.package.java",
 				"meta.package.java",
 			],
 			"settings": {
