@@ -478,6 +478,35 @@
 			"settings": {
 				"foreground": "#b267e6"
 			}
+		},
+		{
+			"name": "Import Path Segments",
+			"scope": [
+				"entity.name.type",
+				"entity.name.type.class",
+				"entity.name.class",
+				"entity.name.type.module",
+				"entity.name.module",
+				"entity.name.namespace",
+				"entity.name.import"
+			],
+			"settings": {
+				"foreground": "#ffffff"	
+			}
+		},
+		{
+			"name": "Import Module Strings",
+			"scope": [
+				"string.quoted",
+				"string.quoted.single",
+				"string.quoted.double",
+				"string.quoted.other",
+				"string.quoted.module",
+				"support.module"
+			],
+			"settings": {
+				"foreground": "#ffffff"	
+			}
 		}
 	]
 }
