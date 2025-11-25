@@ -374,7 +374,8 @@
 			"name": "Operator and Period Seperators",
 			"scope": [
 				"keyword.operator",
-				"punctuation.separator.period"
+				"punctuation.separator.period",
+				"punctuation.separator"
 			],
 			"settings": {
 				"foreground": "#ffd185"
