@@ -525,7 +525,8 @@
 			"name": "Java Package Path",
 			"scope": [
 				"constant.other.package.java",
-				"meta.package.identifier.java"
+				"meta.package.identifier.java",
+				"meta.package.java"
 			],
 			"settings": {
 				"foreground": "#ffffff"	
