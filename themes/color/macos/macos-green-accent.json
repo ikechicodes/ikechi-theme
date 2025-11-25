@@ -522,9 +522,10 @@
 			}
 		},
 		{
-			"name": "Java Package Name",
+			"name": "Java Package Path",
 			"scope": [
-				"entity.name.package.java"
+				"constant.other.package.java",
+				"meta.package.identifier.java"
 			],
 			"settings": {
 				"foreground": "#ffffff"	
