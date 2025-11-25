@@ -526,7 +526,8 @@
 			"scope": [
 				"constant.other.package.java",
 				"meta.package.identifier.java",
-				"meta.package.java"
+				"meta.package.java",
+				"source.java"
 			],
 			"settings": {
 				"foreground": "#ffffff"	
