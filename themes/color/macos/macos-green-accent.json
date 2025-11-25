@@ -251,7 +251,7 @@
 			"name": "InstanceProperties",
 			"scope": [
 				"variable.other.property",
-				"variable.other.object.property",
+				".property",
 				"variable.object.property"
 			],
 			"settings": {
@@ -349,7 +349,7 @@
 				"punctuation.separator.key-value.js"
 			],
 			"settings": {
-				"foreground": "#ffffffd9"
+				"foreground": "#ffd185"
 			}
 		},
 		{
@@ -368,16 +368,17 @@
 				"constant.numeric"
 			],
 			"settings": {
-				"foreground": "#d8c87c"
+				"foreground": "#e5a460"
 			}
 		},
 		{
-			"name": "Operator",
+			"name": "Operator and Period Seperators",
 			"scope": [
-				"keyword.operator"
+				"keyword.operator",
+				"punctuation.separator.period"
 			],
 			"settings": {
-				"foreground": "#ffffffd9"
+				"foreground": "#ffd185"
 			}
 		},
 		{
@@ -506,7 +507,6 @@
 		{
 			"name": "Java Import Path Override",
 			"scope": [
-				"storage.type.java",
 				"storage.modifier.import.java",
 				"meta.import.java",
 				"meta.path",
@@ -527,6 +527,16 @@
 			"settings": {
 				"foreground": "#ffffff"	
 			}
+		},
+		{
+			"name": "Object Property",
+			"scope": [
+				"variable.other.object.property"
+			],
+			"settings": {
+				"foreground": "#ffffff"
+			}
 		}
+			
 	]
 }
