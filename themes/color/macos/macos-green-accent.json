@@ -218,7 +218,6 @@
 			"name": "Keyword",
 			"scope": [
 				"storage.type",
-				"storage.modifier",
 				"keyword",
 				"variable.language.this",
 				"variable.language.super",
@@ -513,6 +512,7 @@
 				"constant.other.package.java",
 				"meta.package.identifier.java",
 				"meta.package.java",
+				"storage.modifier.package.java"
 			],
 			"settings": {
 				"foreground": "#ffffff"	
