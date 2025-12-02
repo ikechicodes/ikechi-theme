@@ -581,7 +581,8 @@
 			"name": "Commas",
 			"scope": [
 				"punctuation.separator.delimiter",
-				"punctuation.separator.comma"
+				"punctuation.separator.comma",
+				"punctuation.separator.parameter.js"
 			],
 			"settings": {
 				"foreground": "#ffffff"
@@ -610,7 +611,7 @@
 		{
 			"name": "Function calls like grid.get(row) but it also effects class name",
 			"scope": [
-				"entity.name.function.java"
+				"entity.name.function"
 			],
 			"settings": {
 				"foreground": "#6DB1FE"
