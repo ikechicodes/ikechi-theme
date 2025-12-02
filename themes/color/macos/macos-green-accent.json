@@ -380,11 +380,11 @@
 			}
 		},
 		{
-			"name": "Operator and Period Seperators",
+			"name": "Period Seperators",
 			"scope": [
-				"keyword.operator",
 				"punctuation.separator.period",
-				"punctuation.separator"
+				"punctuation.separator",
+				"punctuation.accessor.js"
 			],
 			"settings": {
 				"foreground": "#ffd185"
