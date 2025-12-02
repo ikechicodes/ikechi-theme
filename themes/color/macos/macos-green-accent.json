@@ -222,7 +222,6 @@
 				"variable.language.this",
 				"variable.language.super",
 				"keyword.other.typedef",
-				"constant.language",
 				"storage.modifier.java"
 			],
 			"settings": {
@@ -261,8 +260,8 @@
 		{
 			"name": "OtherDeclarations",
 			"scope": [
-				"entity.name.function",
-				"entity.name.function.method"
+				"entity.name.function.method",
+				"meta.method-call.java"
 			],
 			"settings": {
 				"foreground": "#4db1cb"
@@ -440,15 +439,6 @@
 			}
 		},
 		{
-			"name": "Arithmetic",
-			"scope": [
-				"keyword.operator.arithmetic"
-			],
-			"settings": {
-				"foreground": "#b281eb"
-			}
-		},
-		{
 			"scope": "token.info-token",
 			"settings": {
 				"foreground": "#6796e6"
@@ -528,7 +518,77 @@
 			"settings": {
 				"foreground": "#ffffff"
 			}
-		}
-			
+		},
+		{
+			"name": "Class Constructor",
+			"scope": [
+				"meta.function-call.java"
+			],
+			"settings": {
+				"foreground": "#fe7ab2"
+			}
+		},
+		{
+			"name": "Method Name in Definition",
+			"scope": [
+				"meta.method.identifier.java"
+			],
+			"settings": {
+				"foreground": "#ffffff"
+			}
+		},
+		{
+			"name": "Parentheses",
+			"scope": [
+				"punctuation.definition.parameters",
+				"punctuation.bracket.round"
+			],
+			"settings": {
+				"foreground": "#ffffff"
+			}
+		},
+		{
+			"name": "Braces",
+			"scope": [
+				"punctuation.section.class",
+				"punctuation.section.method",
+				"punctuation.section.block",
+				"punctuation.definition.block"
+			],
+			"settings": {
+				"foreground": "#ffffff"
+			}
+		},
+		{
+			"name": "Boolean Values",
+			"scope": [
+				"constant.language"
+			],
+			"settings": {
+				"foreground": "#b084eb"
+			}
+		},
+		{
+			"name": "Commas",
+			"scope": [
+				"punctuation.separator.delimiter",
+				"punctuation.separator.comma"
+			],
+			"settings": {
+				"foreground": "#ffffff"
+			}
+		},
+		{
+			"name": "Square Brackets",
+			"scope": [
+				"punctuation.bracket.square",
+				"meta.brace.square",
+				"punctuation.definition.binding-pattern.array"
+			],
+			"settings": {
+				"foreground": "#b084eb"
+			}
+		},
+		
 	]
 }
