@@ -258,12 +258,12 @@
 			}
 		},
 		{
-			"name": "OtherDeclarations",
+			"name": "Method Call Arguments",
 			"scope": [
 				"meta.method-call.java"
 			],
 			"settings": {
-				"foreground": "#6db1fe"
+				"foreground": "#ffffff"
 			}
 		},
 		{
@@ -386,7 +386,7 @@
 				"variable.parameter"
 			],
 			"settings": {
-				"foreground": "#ffffffd9"
+				"foreground": "#ffffff"
 			}
 		},
 		{
@@ -414,7 +414,7 @@
 				"punctuation.quasi.element"
 			],
 			"settings": {
-				"foreground": "#ffffffd9"
+				"foreground": "#ffffff"
 			}
 		},
 		{
@@ -425,7 +425,7 @@
 				"variable.other.object",
 			],
 			"settings": {
-				"foreground": "#ffffffd9"
+				"foreground": "#ffffff"
 			}
 		},
 		{
@@ -434,7 +434,7 @@
 				"meta.brace"
 			],
 			"settings": {
-				"foreground": "#ffffffd9"
+				"foreground": "#ffffff"
 			}
 		},
 		{
@@ -519,12 +519,12 @@
 			}
 		},
 		{
-			"name": "Class Constructor",
+			"name": "Method Call Arguments",
 			"scope": [
 				"meta.function-call.java"
 			],
 			"settings": {
-				"foreground": "#fe7ab2"
+				"foreground": "#ffffff"
 			}
 		},
 		{
@@ -597,6 +597,16 @@
 				"foreground": "#ffffff"
 			}
 		},
+		{
+			"name": "Function calls like grid.get(row) but it also effects class name",
+			"scope": [
+				"entity.name.function.java"
+			],
+			"settings": {
+				"foreground": "#6DB1FE"
+			}
+		},
+		
 		
 	]
 }
