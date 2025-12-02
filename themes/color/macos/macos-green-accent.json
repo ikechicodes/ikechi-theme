@@ -215,7 +215,7 @@
 			}
 		},
 		{
-			"name": "Keyword",
+			"name": "Keyword Dark Pink",
 			"scope": [
 				"storage.type",
 				"keyword",
@@ -225,9 +225,19 @@
 				"storage.modifier.java"
 			],
 			"settings": {
-				"foreground": "#fe7ab2"
+				"foreground": "#ff74b5"
 			}
 		},
+				{
+			"name": "Types Light Pink",
+			"scope": [
+				"storage.type",
+			],
+			"settings": {
+				"foreground": "#ff9ac1"
+			}
+		},
+		
 		{
 			"name": "ClassDeclName",
 			"scope": [
@@ -338,7 +348,7 @@
 				"punctuation.separator.key-value"
 			],
 			"settings": {
-				"foreground": "#fe7ab2"
+				"foreground": "#ff9ac1"
 			}
 		},
 		{
@@ -604,6 +614,15 @@
 			],
 			"settings": {
 				"foreground": "#6DB1FE"
+			}
+		},
+		{
+			"name": "Annotations",
+			"scope": [
+				"storage.type.annotation.java"
+			],
+			"settings": {
+				"foreground": "#ffffff"
 			}
 		},
 		
