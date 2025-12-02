@@ -260,11 +260,10 @@
 		{
 			"name": "OtherDeclarations",
 			"scope": [
-				"entity.name.function.method",
 				"meta.method-call.java"
 			],
 			"settings": {
-				"foreground": "#4db1cb"
+				"foreground": "#6db1fe"
 			}
 		},
 		{
@@ -587,6 +586,15 @@
 			],
 			"settings": {
 				"foreground": "#b084eb"
+			}
+		},
+		{
+			"name": "Method Arguments",
+			"scope": [
+				"meta.method.body.java"
+			],
+			"settings": {
+				"foreground": "#ffffff"
 			}
 		},
 		
