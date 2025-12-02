@@ -1,4 +1,4 @@
-# Chiper
+# Ikechi's Theme
 
 ## Screenshots
 
