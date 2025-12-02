@@ -222,7 +222,12 @@
 				"variable.language.this",
 				"variable.language.super",
 				"keyword.other.typedef",
-				"storage.modifier.java"
+				"storage.modifier.java",
+				"keyword.operator.expression.of.js",
+				"keyword.operator.expression.in.js",
+				"keyword.operator.expression.*.js",
+				"keyword.operator.new.js",
+				
 			],
 			"settings": {
 				"foreground": "#ff74b5"
@@ -380,8 +385,9 @@
 			}
 		},
 		{
-			"name": "Period Seperators",
+			"name": "Operators Period Seperators",
 			"scope": [
+				"keyword.operator",
 				"punctuation.separator.period",
 				"punctuation.separator",
 				"punctuation.accessor.js"
