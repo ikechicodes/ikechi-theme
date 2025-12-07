@@ -285,7 +285,6 @@
 			"name": "ModuleNames",
 			"scope": [
 				"entity.name.type.module",
-				"entity.other.inherited-class",
 				"entity.name.class"
 			],
 			"settings": {
@@ -631,6 +630,15 @@
 			"settings": {
 				"foreground": "#ffffff"
 			}
-		}
+		},
+		{
+			"name": "Inherited Class",
+			"scope": [
+				"entity.other.inherited-class"
+			],
+			"settings": {
+				"foreground": "#FF9AC1"
+			}
+		},
 	]
 }
